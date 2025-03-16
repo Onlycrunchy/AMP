@@ -1,0 +1,25 @@
+[
+    {
+        "UpdateStageName": "SteamCMD Download",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "361580",
+        "UpdateSourceArgs": "228380",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "ForceDownloadPlatform": "Windows",
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Copy Server Config",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "CopyFilePath",
+        "UpdateSourceData": "./wreckfest/361580/server_config.cfg",
+        "UpdateSourceArgs": "./wreckfest/361580/initial_server_config.cfg",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": false,
+        "OneShot": false
+    }
+]
