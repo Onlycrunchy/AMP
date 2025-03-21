@@ -1,0 +1,7 @@
+[
+    {
+        "ConfigFile": "server_config.scnf",
+        "ConfigType": "json",
+        "AutoMap": true
+    }
+]
