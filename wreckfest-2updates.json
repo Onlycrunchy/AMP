@@ -26,7 +26,7 @@
         "UpdateSourcePlatform": "All",
         "UpdateSource": "CopyFilePath",
         "UpdateSourceData": "./wreckfest2/1203190/server_config.scnf",
-        "UpdateSourceArgs": "{{$FullBaseDir}}/wreckfest2_server_config.scnf",
+        "UpdateSourceArgs": "./wreckfest-2/1203190/wreckfest2_server_config.scnf",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
