@@ -11,9 +11,22 @@
         "OneShot": false
     },
     {
-        "UpdateStageName": "Generate Configuration Files",
+        "UpdateStageName": "Download Configuration File",
         "UpdateSourcePlatform": "Windows",
-        "UpdateSource": "StartApplication",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://github.com/Onlycrunchy/AMP/raw/main/wreckfest2_server_config.scnf",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": false,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Rename Configuration File",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CopyFilePath",
+        "UpdateSourceData": "./wreckfest2/1203190/server_config.scnf",
+        "UpdateSourceArgs": "{{$FullBaseDir}}/wreckfest2_server_config.scnf",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
